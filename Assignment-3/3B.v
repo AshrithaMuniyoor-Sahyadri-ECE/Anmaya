@@ -27,6 +27,8 @@ module mux_dff_feedback_tb;
         .Q(Q)
     );
     initial begin
+      $dumpfile("dump.vcd");
+      $dumpvars;
         clk = 0;
         forever #10 clk = ~clk;
     end
