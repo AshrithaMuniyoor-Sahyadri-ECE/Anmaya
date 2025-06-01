@@ -1,5 +1,5 @@
 Design Code:
-module mux_dff_feedback (
+module mux_dff (
     input  wire clk,
     input  wire I1,
     input  wire S,
@@ -14,7 +14,7 @@ module mux_dff_feedback (
 endmodule
 
 Testbench:
-module mux_dff_feedback (
+module mux_dff (
     input  wire clk,
     input  wire I1,
     input  wire S,
